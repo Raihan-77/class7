@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    background-size: cover;
+}
+.form{
+    width: 400px;
+    height: 350px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid transparent;
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 4px 5px 23px 0px;
+}
+input{
+    padding: 15px;
+}
+::placeholder{
+    color: grey;
+    font-size: 16px;
+}
+.user{
+    width:365px;
+    height: 50px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.login{
+    width: 100%;;
+    height: 50px;
+    margin: auto;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border:none;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.rai a{
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: red;
+}
+
+.rai{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+hr{
+    border: 1px solid whitesmoke;
+    margin-bottom: 30px;
+}
+.button{
+    width:200px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+}
